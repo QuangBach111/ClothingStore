@@ -142,10 +142,12 @@ header .header-item span{
     display: block;
 }
 
+/* Main */
 main {
     padding: 0 16px;
 }
 
+/* --Banner */
 main .banner {
     position: relative;
 }
@@ -193,6 +195,8 @@ main>p {
     margin: 15px 0px;
 }
 
+/* --Product list */
+
 main .product-list {
     display: flex;
     flex-wrap: wrap;
@@ -235,6 +239,7 @@ main .product-list .product-item .special{
 }
 
 /* footer */
+/* Subcribe */
 footer .subscribe {
     padding: 32px 16px;
     background-color: #000;
@@ -275,13 +280,12 @@ footer .subscribe .btn:hover {
     padding: 8px 32px;
 }
 
-
-
+/* Information */
 footer .information {
     background-color: #f1f1f1;
     padding: 64px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 footer .information .contact{ 
@@ -294,10 +298,21 @@ footer .information .about{
     
 }
 
-footer .information .store{ 
+footer .information .store-accept{ 
     width: 30%;
-    
+}
 
+footer .information h1 {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+footer .information p{ 
+    font-size: 16px;
+    text-align: center;
+    margin: 15px;
 }
 
 footer .information .contact input {
@@ -319,24 +334,10 @@ footer .information .contact .btn:hover {
     color: black;
 }
 
-footer .information h1 {
-    font-weight: 400;
-    font-size: 20px;
-    text-align: center;
-    margin: 10px;
-}
-
-footer .information p {
-    font-size: 12px;
-    text-align: center;
-    margin: 15px;
-}
-
 footer .information .about ul{
     list-style: none;
     text-decoration: underline;
-    /* position: relative; */
-    margin-top: 10px;
+    
 }
 
 footer .information .store-accept ul{
@@ -351,7 +352,6 @@ footer .information .store-accept h1{
 
 
 footer .information .store-accept ul span {
-    font-size: 12px;
     font-weight: bold;
     display: inline-block;
     line-height: 37px;
