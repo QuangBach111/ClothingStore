@@ -461,4 +461,34 @@ footer .footer a {
     /* footer .information .contact input {
         width: 90%;
     } */
+    footer .information .contact{ 
+        width: 25%;
+    }
+    
+    footer .information .about{ 
+        width: 20%;
+        
+        
+    }
+    
+    footer .information .store-accept{ 
+        width: 40%;
+    }
+
+    footer .information h1{ 
+        font-size: 20px;
+        /* text-align: center; */
+        /* margin: 15px; */
+    }
+
+    footer .information p{ 
+        font-size: 12px;
+        /* text-align: center; */
+        /* margin: 15px; */
+    }
+    footer .information span{ 
+        font-size: 12px;
+        text-align: center;
+        /* margin: 15px; */
+    }
 }
